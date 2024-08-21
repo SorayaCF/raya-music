@@ -4,7 +4,6 @@ export default function Footer() {
     return (
         <footer className="bg-gray-100 text-gray-900 py-4">
             <div className="container mx-auto text-center">
-               
                 <li className='flex space-x-2 items-center justify-center'>
                 <ul>
                 <p>&copy; {new Date().getFullYear()} Raya. Todos los derechos reservados.</p>
