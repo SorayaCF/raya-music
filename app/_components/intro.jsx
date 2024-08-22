@@ -5,9 +5,9 @@ export default function Intro() {
     return (
         <div className="min-h-screen bg-cover bg-center relative animate-fade-right animate-duration-[3000ms]" style={{ backgroundImage: "url('/concert-hall.jpg')" }}>
             <div className="bg-black bg-opacity-50 min-h-screen flex flex-col justify-center items-center text-center gap-12">
-                <img src="/logo-white.png" alt="Raya Band Logo" className="w-3/12 animate-fade-down animate-duration-[3000ms]" />
+                <img src="/logo-white.png" alt="Raya Band Logo" className="w-2/3 md:w-3/12 animate-fade-down animate-duration-[3000ms]" />
                 <div className='animate-fade-up animate-duration-[3000ms] flex flex-col items-center space-y-3'>
-                    <p className="text-gray-300 text-lg md:text-xl">
+                    <p className="text-gray-300 text-lg md:text-xl px-4">
                         Descubre lo último de tu grupo favorito.
                     </p>
                     <a href='https://soundcloud.com/laura-raya' target='_blank'>
@@ -22,7 +22,7 @@ export default function Intro() {
             </div>
             <li className='absolute top-10 right-5 space-y-3 flex flex-col items-center justify-center'>
                 <ul>
-                    <SocialIcon url='https://soundcloud.com/laura-raya' target="_blank" rel="noopener noreferrer" />
+                    <SocialIcon bgColor='orange' url='https://soundcloud.com/laura-raya' target="_blank" rel="noopener noreferrer" />
                 </ul>
                 <ul>
                     <SocialIcon url='https://www.youtube.com/@rayalamesa/featured' target="_blank" rel="noopener noreferrer" />
