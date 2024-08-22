@@ -8,11 +8,10 @@ export default function SocialIcons() {
     useEffect(() => {
         if (window) {
             let mql = window.matchMedia("(max-width: 480px)")
-            console.log('mql', mql)
             setIsMatch(mql.matches)
         }
     }, [window])
-    console.log('isMathc', isMatch)
+
     return (
         <li className='absolute top-5 md:top-10 right-2 md:right-5 space-y-2 md:space-y-3 flex flex-col items-center justify-center'>
             <ul>
