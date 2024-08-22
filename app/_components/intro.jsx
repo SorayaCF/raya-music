@@ -1,4 +1,4 @@
-import { SocialIcon } from 'react-social-icons'
+import SocialIcons from "./social-icons"
 
 export default function Intro() {
 
@@ -20,20 +20,7 @@ export default function Intro() {
                     </a>
                 </div>
             </div>
-            <li className='absolute top-10 right-5 space-y-3 flex flex-col items-center justify-center'>
-                <ul>
-                    <SocialIcon bgColor='orange' url='https://soundcloud.com/laura-raya' target="_blank" rel="noopener noreferrer" />
-                </ul>
-                <ul>
-                    <SocialIcon url='https://www.youtube.com/@rayalamesa/featured' target="_blank" rel="noopener noreferrer" />
-                </ul>
-                <ul>
-                    <SocialIcon url='https://www.instagram.com/raya.musix/' target="_blank" rel="noopener noreferrer"/>
-                </ul>
-                <ul>
-                    <SocialIcon url="mailto:rayalau@gmail.com" target="_blank" rel="noopener noreferrer"/>
-                </ul>
-            </li>
+          <SocialIcons />
         </div>
     )
 }
